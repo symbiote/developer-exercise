@@ -3,7 +3,7 @@
 	<h1><?php echo $this->e($this->data->PageName) ?></h1>
 
 	<div class="content">
-		<?php echo $this->data->Content ?>
+		<?php echo nl2br($this->e($this->data->Content)) ?>
 	</div>
 	
 	<?php if ($this->user()): ?>
