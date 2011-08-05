@@ -19,7 +19,7 @@ include_once ROOT.'/lib.php';
 @session_start();
 
 $front = new FrontController();
-$url = isset($_GET['url']) ? ltrim(str_replace(BASE_URL, '', $_GET['url']), '/') : '';
+$url = ltrim(substr($_SERVER['REQUEST_URI'], strlen(BASE_URL)), '/');
 
 $out = $front->route($url);
 

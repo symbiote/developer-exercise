@@ -1,0 +1,24 @@
+label {
+	display: block;
+	font-weight: bold;
+}
+
+#Wrapper {
+	width: 800px;
+	margin: 0px auto;
+	overflow: auto;
+}
+
+#Menu {
+	width: 200px;
+	float: left;
+}
+
+#Content {
+	width: 550px;
+	margin-left: 220px;
+}
+
+#LoginForm {
+	clear: both;
+}
