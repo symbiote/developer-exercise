@@ -11,5 +11,6 @@ a 3 hour solution that is just meant to give an outline of what we are looking
 for. 
 
 If you have stumbled across this, and are looking for a job, see the 
-'overview' file contained within. 
+'overview' file contained within and have a go, then send an email to 
+jobs@silverstripe.com.au
 
