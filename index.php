@@ -20,7 +20,10 @@ $root = ROOT;
 
 $front = new FrontController();
 $url = ltrim(substr($_SERVER['REQUEST_URI'], strlen(BASE_URL)), '/');
-$url = substr($url, 0, strpos($url, '?'));
+if (strpos($url, '?')) {
+	$url = substr($url, 0, strpos($url, '?'));	
+}
+
 $out = $front->route($url);
 
 if (!headers_sent()) {
