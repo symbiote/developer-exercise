@@ -213,7 +213,7 @@ class FrontController {
 		if (isset($bits[1]) && strlen($bits[1])) {
 			$this->action = $bits[1];
 		}
-		
+
 		$ctrlClass = ucfirst($this->controller) . 'Controller';
 		$ctrlClassFile = realpath(ROOT.'/controllers/'.$ctrlClass .'.php');
 		if (strpos($ctrlClassFile, ROOT) !== 0) {
