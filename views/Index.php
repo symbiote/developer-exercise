@@ -22,7 +22,9 @@ https://github.com/silverstripe-australia/developer-exercise
 				</p>
 				<?php endforeach; endif; ?>
 				<p>
-				<a href="<?php echo $this->url('page', 'edit') ?>">Add new page</a>
+					<?php if ($this->user()): ?>
+					<a href="<?php echo $this->url('page', 'edit') ?>">Add new page</a>
+					<?php endif; ?>
 				</p>
 			</div>
 			<div id="Content"><?php echo $this->MasterContent ?></div>

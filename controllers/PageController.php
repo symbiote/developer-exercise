@@ -34,6 +34,9 @@ class PageController extends Controller {
 	}
 
 	public function saveAction() {
+		if (!$this->user) {
+			throw new Exception("No session found, please login");
+		}
 		$page = $this->data();
 		if (!$page) {
 			$page = new Page;
