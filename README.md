@@ -9,3 +9,7 @@ your response into account.
 This is NOT meant to be an example of the best solution to the problem. It is
 a 3 hour solution that is just meant to give an outline of what we are looking
 for. 
+
+If you have stumbled across this, and are looking for a job, see the 
+'overview' file contained within. 
+
