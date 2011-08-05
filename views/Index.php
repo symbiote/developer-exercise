@@ -2,7 +2,7 @@
 <!--
 You're looking are you? 
 
-https://github.com/nyeholt/developer-exercise
+https://github.com/silverstripe-australia/developer-exercise
 
 -->
 <html>
