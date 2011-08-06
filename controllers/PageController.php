@@ -48,8 +48,7 @@ class PageController extends Controller {
 			return;
 		}
 		
-		$existing = $this->dataStore()->findOne('PageName', $_POST['PageName']);
-		if ($existing && !($existing->id == $page->id)) {
+		if ($this->pageNameExists($_POST['PageName'], $page->id)) {
 			$this->message("Page already exists");
 			$this->redirect($this->backUrl());
 			return;
@@ -66,6 +65,28 @@ class PageController extends Controller {
 		$this->dataStore()->save();
 		
 		$this->redirect($this->url('page', 'index', array('id' => $page->id)));
+	}
+	
+	public function pageNameExists($name, $existingId) {
+		$existing = $this->dataStore()->findOne('PageName', $name);
+		if ($existing && !($existing->id == $existingId)) {
+			return true;
+		}
+		return false;
+	}
+
+	/**
+	 * Checks whether a page exists already or not
+	 * 
+	 * @param type $name
+	 * @param type $existingId
+	 * @return type 
+	 */
+	public function checknameAction() {
+		header('Content-type: application/json');
+		$name = $_GET['name'];
+		$id = $_GET['id'];
+		return $this->pageNameExists($name, $id) ? '{"exists": true}' : '{"exists": false}';
 	}
 }
 

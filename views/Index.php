@@ -26,19 +26,22 @@ https://github.com/silverstripe-australia/developer-exercise
 					<a href="<?php echo $this->url('page', 'edit') ?>">Add new page</a>
 					<?php endif; ?>
 				</p>
+				
+				<div id="LoginForm">
+					<?php if (!$this->user()): ?>
+					<form method="POST" action="<?php echo $this->url('index', 'login')?>">
+						<input type="text" name="email" />
+						<input type="submit" value="login" />
+					</form>
+					<?php else: ?>
+					<a href="<?php echo $this->url('index', 'logout') ?>">Logout</a>
+					<?php endif; ?>
+				</div>
+
 			</div>
 			<div id="Content"><?php echo $this->MasterContent ?></div>
 			
-			<div id="LoginForm">
-				<?php if (!$this->user()): ?>
-				<form method="POST" action="<?php echo $this->url('index', 'login')?>">
-					<input type="text" name="email" />
-					<input type="submit" value="login" />
-				</form>
-				<?php else: ?>
-				<a href="<?php echo $this->url('index', 'logout') ?>">Logout</a>
-				<?php endif; ?>
-			</div>
+			
 
 		</div>
 	</body>
