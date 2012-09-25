@@ -1,0 +1,16 @@
+{
+	"name": "silverstripe-australia/developer-exercise",
+	"description": "This is a sample ground-up solution to the developer exercise
+		used for SilverStripe Australia.",
+	"type": "silverstripe-module",
+	"keywords": ["silverstripe-australia", "developer-exercise"],
+	"authors": [
+	{
+		"name": "Marcus Nyeholt"
+	}
+	],
+	"require":
+	{
+		"silverstripe/framework": "2.4.*"
+	}
+}
