@@ -256,7 +256,7 @@ class User {
 
 /**
  *
- * @author marcus@silverstripe.com.au
+ * @author marcus@symbiote.com.au
  */
 class DataStore {
 	

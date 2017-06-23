@@ -58,7 +58,7 @@ How long should this take?
 We don't want you to spend much more than a couple of hours putting together a response. 
 
 
-Thanks for your time, there's no right or wrong answer out of this. If you have any further questions, don't hesitate to email jobs@silverstripe.com.au and we'll get back to you asap. 
+Thanks for your time, there's no right or wrong answer out of this. If you have any further questions, don't hesitate to email jobs@symbiote.com.au and we'll get back to you asap. 
 
 
 
