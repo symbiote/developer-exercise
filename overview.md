@@ -30,7 +30,7 @@ Questions
 
 ## Do I need to use a database?
 
-No, data can be stored however you like, so long as it can be re-edited later. This can be in a flat file, the session, or even in localStorage in the browser. We're interested how you go about abstracting the specifics of the data storage / retrieval.
+No, data can be stored however you like, so long as it can be re-edited later. This can be in a flat file, the session, or even in-memory in the browser if providing a JS only implementation. We're interested how you go about separating the data store from the UI. 
 
 ## Do I need to write a user management system?
 
@@ -50,6 +50,6 @@ Not required, but we won't ignore them if they are provided.
 
 ## How long should this take?
 
-We don't want you to spend much more than a couple of hours putting together a response.
+We don't want you to spend much more than a few hours putting together a response, so feel free to drop out functionality. The key bits are being able to list the pages, display a selected page, and adding a new page to the list of pages. 
 
 Don't hesitate to email jobs@symbiote.com.au with any queries and we'll get back to you asap.
