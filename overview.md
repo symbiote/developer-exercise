@@ -7,11 +7,7 @@ Write an application that allows a user to create and update a series of content
 A Page in the system should have
 
 * A name field (text field)
-* A boolean indicator of whether the page is the 'home' page (checkbox)
-* A boolean indicator of whether the page is published (checkbox)
 * A content field (textarea)
-
-When a user opens the 'home' page of the application, the content that is displayed should be that of the page marked 'home'.
 
 All pages in the system should be displayed in a layout that has a list of all pages down the left side of the screen, and the page title and content on the right hand side.
 
@@ -21,12 +17,18 @@ If the user is not logged in, they should be presented with a 'login' link - cli
 
 If the user is logged in, they should see an 'add page' button below the list, which will provide an interface for the user to add a new page with the indicated fields.
 
+
+(Optional) 
+
 When adding (or editing) a page, the page name should be unique within the system, so any attempt to save a page with the same name as an existing page should throw an error.
 
 Users should not be able to submit the form with an empty page name field.
 
 
-Questions
+A bare minimum, possibly broken, implementation can be seen at https://symbiote.github.io/developer-exercise/react-impl/pages.html
+
+
+# Questions
 
 ## Do I need to use a database?
 
