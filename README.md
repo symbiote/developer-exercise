@@ -1,14 +1,17 @@
 
-This is a sample ground-up solution to the developer exercise used for 
-Symbiote. If you are a candidate, feel free to take this and use
-it as a basis of your own response - after all, it is an open source framework
-of sorts! Remember though, you are being evaluated on how well you demonstrate
-your understanding and capabilities, and any subsequent interview will take
-your response into account. 
+This repository contains 2 sample solutions to the 
+[Symbiote Developer Exercise](overview.md) that we use as part of our technical
+hiring roles. 
 
-This is NOT meant to be an example of the best solution to the problem. It is
-a 3 hour solution that is just meant to give an outline of what we are looking
-for. 
+If you are interested in submitting a response, please read the overview linked above,
+and send a github link to jobs@symbiote.com.au
+
+You are being evaluated on how well you demonstrate your understanding of code, 
+so we're not expecting too much in the way if visual presentation. 
+
+The two solutions in this repository are _not_ meant to be an example of the 
+best solution to the problem, but to provide a guideline to what the bare minumum
+functional solution should provide - think of them as the low bar. 
 
 If you have stumbled across this, and are looking for a job, see the 
 'overview' file contained within and have a go, then send an email to 
